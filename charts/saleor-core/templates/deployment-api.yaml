@@ -37,7 +37,7 @@ spec:
       volumes:
         # Settings for the django based application
         - name: custom-settings
-          configMap:
+        - configMap:
           {{- if (not .Values.alternativeAppSettingsConfigMap) }}
           name: {{ include "saleor-core.fullname" . }}-custom-settings
           {{- else }}
