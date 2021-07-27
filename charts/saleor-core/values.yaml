@@ -232,7 +232,7 @@ persistence:
 
 ## Configuration Settings
 
-alternativeAppSettingsConfigMap:
+alternativeAppSettingsConfigMap: "joo-test"
 debugMode: false
 settingsModule: saleor.custom-settings
 internalIps:
